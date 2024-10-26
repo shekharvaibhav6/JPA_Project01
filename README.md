@@ -24,9 +24,15 @@ Welcome to the **Student Management API**! This project is built using **Spring 
 API Endpoints
 
 Method	Endpoint	Description
+
 POST -->	/api/std/save	-> Add a new student
+
 GET	--> /api/std/all	-> Get all students
+
 GET	--> /api/std -> Get a student by ID and name
+
 PUT	--> /api/std/{id}	-> Fully update a student by ID
+
 PATCH	--> /api/std/{id}	-> Partially update student by ID
+
 DELETE --> /api/std/name/{name}	-> Delete student by name
